@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN-Up</title>
+    <style>
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    overflow: hidden;
+   background-color: white;
+    
+}
+
+#main
+{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: linear-gradient(black, transparent) !important; */
+    background-image: url("/photo/1102620_MLP_1440x675_apv189_V3.jpg");
+    display: flex;
+    flex-direction: column;
+}
+#navbar
+{
+    height: 10%;
+    width: 98%;
+    margin: 1% auto;
+    
+
+    display: flex;
+    flex-direction: row;
+}
+#logo
+{
+    width: 70%;
+    margin: 0.44%;
+    
+
+    display: flex;
+    flex-direction: row;
+}
+#logo > input
+{
+    width: 80%;
+    height: 98%;
+    opacity: 0% !important;
+    border-radius: 7%;
+    padding-left: 2%;
+}
+#abc
+{
+    opacity: 0%;
+}
+#logo-pic
+{
+    width: 20%;
+}
+#netflixLogo
+{
+width: 93%;
+height: 98%;
+
+}
+#buttonFamily
+{
+    width: 28%;
+    margin: 0.44%;
+    
+}
+#buttonFamily > button
+{
+    width: 30%;
+    height: 90%;
+    margin: 0.5% 1%;
+    border-radius: 10%;
+    background-color: rgb(229, 9, 20);
+    background-image: linear-gradient(to top,transparent,black);
+    font-size: 14px;
+    border: 1px solid rgb(229, 9, 20);
+    color: white;
+}
+#buttonFamily>button:hover
+{
+    background-color: rgb(167, 11, 18);
+    background-image: linear-gradient(to bottom,transparent,black);
+}
+#opscreen
+{
+    width: 98%;
+    height: 85%;
+    margin:  0.5% auto;
+}
+#form1 > input
+{
+    margin-left: 4%;
+    margin-top: 1%;
+    width: 27%;
+    padding: 0.7%;
+    font-size: 20px;
+}
+#loginFormdiv > button
+{
+    margin-left: 4.5%;
+    margin-top: 3%;
+    padding: 1%;
+    width: 27%;
+    color: white;
+    background-color: rgb(229,9,20);
+}
+#loginFormdiv > button:hover
+{
+   background-color: rgb(124, 20, 25); 
+}
+#faltu
+{
+    margin-left: 6%;
+}
+.nms
+{
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+    </style>
+</head>
+<body>
+    <div id="main">
+
+        <div id="navbar">
+
+            <div id="logo">
+
+                <div id="logo-pic">
+                    <img src="/photo/Netflix_Logo_PMS.png" alt="" id="netflixLogo">
+                </div>
+
+                <input type="text" placeholder="search the movies">
+            </div>
+
+            <div id="buttonFamily">
+                <button id="abc"></button>
+                <button onclick="loginpage()">SIGN-IN</button>
+            </div>
+           
+        </div>
+
+        <div id="opscreen">
+
+
+            <div id="loginFormdiv">
+                
+               <form id="form1">
+
+                <input type="text" id="name1" placeholder="Name"> <br>
+                <input type="text" id="dob" placeholder="date of birth dd/mm/yyyy"><br>
+                <input type="text" id="username" placeholder="username"> <br>
+                <input type="text" id="password" placeholder="password"> <br>
+                <input type="text" id="new-password" placeholder="new-password"> <br>
+
+               </form>
+               <button id="signupdata">Getting Started</button>
+
+               <div id="faltu">
+                    <button class="nms" >facebook</button>
+                    <button  class="nms" >Google</button>
+               </div>
+               
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<script src="signup.js"></script>
+
+
+
+  
+
+
+

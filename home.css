@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body 
+{
+    overflow-x: hidden;
+    background-image: url("/photo/5-56908_avengers-endgame-iron-man-4k.jpg");
+}
+
+#main {
+    width: 100vw;
+    padding-bottom: 20%;
+    background-image: linear-gradient(black, transparent) !important;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+#navbar {
+    height: 10%;
+    width: 98%;
+    margin: 1% auto;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    width: 70%;
+    margin: 0.44%;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#logo>input {
+    width: 80%;
+    height: 98%;
+    border-radius: 7%;
+    padding-left: 2%;
+}
+
+#logo-pic {
+    width: 20%;
+}
+
+#netflixLogo {
+    width: 93%;
+    height: 98%;
+
+}
+
+#buttonFamily {
+    width: 28%;
+    margin: 0.44%;
+    border: 1px solid black;
+}
+
+#buttonFamily>button {
+    width: 30%;
+    height: 90%;
+    margin: 0.5% 1%;
+    border-radius: 10%;
+    background-color: rgb(229, 9, 20);
+    background-image: linear-gradient(to top, transparent, black);
+    font-size: 14px;
+    border: 1px solid rgb(229, 9, 20);
+    color: white;
+}
+
+#buttonFamily>button:hover {
+    background-color: rgb(167, 11, 18);
+}
+
+#opscreen {
+    width: 98%;
+    height: 85%;
+    margin: 0.5% auto;
+
+    display: flex;
+    flex-flow: row;
+}
+#filter
+{
+    width: 20%;
+    height: 95%;
+    margin: 1%;
+    background-color: lavender;
+}
+#movies-list
+{
+    width: 78%;
+
+    margin: 1%;
+    margin-left: 10%;
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 40% 40% 40%;
+    grid-gap: 2%;
+    
+}
+.grid-container>div 
+{
+    background-image: linear-gradient(black);
+    opacity: 100%;
+}
+#movies-list > div 
+{
+    height: 75%;
+}
+p
+{
+    padding: 1.5%;
+    font-weight: 900;
+    background-color: black;
+    opacity: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: beige;
+}
+
+p:hover 
+{
+    padding: 1.5%;
+    font-weight: 900;
+    background-color: black;
+    opacity: 98%;
+    text-align: center;
+    font-size: 20px;
+    color: beige;
+}
+
+img
+{
+    width: 90%;
+    height: 80%;
+    margin: 1% 1% 0% 1%;
+}
+img:hover
+{
+    width: 98%;
+    height: 88%;
+    border-radius: 10%;
+    border: 1px solid white;
+    margin: 1% 1% 0% 1%;
+}
+
+
+
+
